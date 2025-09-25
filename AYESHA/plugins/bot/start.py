@@ -30,7 +30,7 @@ async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
     
     # Typing effect part
-    typing_message = await message.reply("<b>нι ỉм αყєѕнα ♥♥......</b>")  # Initial message
+    typing_message = await message.reply("<b>нι ỉм  ♥♥...ɢᴜɴɢᴜɴ ...</b>")  # Initial message
     
     # Simulate typing
     typing_text = "<b>𝖲ᴛᴀʀᴛɪɴɢ...❤️‍🔥</b>"
@@ -193,3 +193,4 @@ async def welcome(client, message: Message):
                 await message.stop_propagation()
         except Exception as ex:
             print(ex)
+
