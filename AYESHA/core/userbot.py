@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("t")
-                await self.one.join_chat("KSDHEROKUSUPPORT")
+                await self.one.join_chat("llVAMPIRE_UPDATEll")
+                await self.one.join_chat("llVAMPIRE_UPDATEll")
             except:
                 pass
             assistants.append(1)
